@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../image/hero-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 100px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.login-container {
+    width: 360px;
+    padding: 20px 40px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 12px;
+    border: 0.5px solid grey;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.input-grp {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-grp input {
+    border-bottom: 1px solid grey;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 40px;
+    padding: 0 20px;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.input-grp input::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+.input-grp i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-grp input:focus {
+    outline: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.reb-for {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 5px 30px 5px;
+}
+
+.form-section a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-section a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background: transparent;
+    backdrop-filter: blur(30px);
+    color: white;
+}
+
+.reg {
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
